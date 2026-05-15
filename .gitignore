@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Production builds
+build/
+FrontEnd/build/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+nodemon.json
+
+# Runtime uploads
+BackEnd/uploads/images/*
+!BackEnd/uploads/images/.gitkeep
+
+# Logs and OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
